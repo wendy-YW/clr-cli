@@ -11,6 +11,6 @@ var versionCmd = &cobra.Command{
 	Short:   "Print the version number of clr-cli",
 	Long:    `All software has versions. This is clr-cli' v`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Color CLI Tools v0.1.0 -- github@wendy-YW")
+		fmt.Println("Color CLI Tools v0.1.1 -- github@wendy-YW")
 	},
 }
