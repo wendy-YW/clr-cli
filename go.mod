@@ -1,4 +1,4 @@
-module github.com/wendy-YW/color-converter-cli
+module github.com/wendy-YW/clr-cli
 
 go 1.21.3
 
