@@ -1,0 +1,5 @@
+.idea
+.color.json
+*.json
+.env
+dist/
