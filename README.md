@@ -18,7 +18,7 @@ you can use --help to check all the available commands
 ```
 clr-cli --help
 ```
-we added 4 colors in the log beforehand, you can run the command below to check
+you can run the command below to check the color you have converted
 ```
 clr-cli log list or clr-cli log l
 ```
@@ -35,7 +35,7 @@ clr-cli log delete [index] or clr-cli log d [index]
 
 Before using `clr-cli log token`, you need to add your env variable first
 
-## Set Env 
+## Set Env
 
 Type below in your terminal, and then run clr-cli log token
 ```
