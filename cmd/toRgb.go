@@ -38,8 +38,8 @@ func hex2Rgb(cmd *cobra.Command, args []string) {
 			return
 		}
 		ColorData.Add(fmt.Sprintf("rgb(%d,%d,%d)", r, g, b), "#"+args[1])
-		fmt.Printf("[INPUT]      \u001b[1m\u001b[41;1m R \u001b[42;1m G \u001b[44;1m B \u001B[0m| #%-16s | \033[38;2;%d;%d;%dm\u2588\u2588 \033[0m\n", args[1], r, g, b)
-		fmt.Printf("[CONVERTED]  \u001b[1m\u001b[40;1m H \u001b[40;1m E \u001b[40;1m X \u001B[0m| \u001B[1m%-16s  | \u001B[38;2;%d;%d;%dm◀◀◀ \u001B[0m\n", fmt.Sprintf("rgb(%d,%d,%d)", r, g, b), r, g, b)
+		fmt.Printf("[INPUT]      \u001B[1m\u001B[40;1m H \u001B[40;1m E \u001B[40;1m X \u001B[0m| #%-16s | \033[38;2;%d;%d;%dm\u2588\u2588 \033[0m\n", args[1], r, g, b)
+		fmt.Printf("[CONVERTED]  \u001B[1m\u001B[41;1m R \u001B[42;1m G \u001B[44;1m B \u001B[0m| \u001B[1m%-16s  | \u001B[38;2;%d;%d;%dm◀◀◀ \u001B[0m\n", fmt.Sprintf("rgb(%d,%d,%d)", r, g, b), r, g, b)
 		err = ColorData.Save(ColorFile)
 		if err != nil {
 			fmt.Println("Error: can't save the color")
