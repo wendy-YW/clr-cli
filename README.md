@@ -15,7 +15,7 @@ It also allows you to save the colors you have converted to a file and list them
 ```
 clr-cli log list or clr-cli log l 
 ```
-to list all the colors you have converted.  
+to list all the colors you have converted.
 
 You can also generate a token for your saved colors and they will be sent to our server, so you can see your saved colors from color converter website.
 ```
@@ -63,7 +63,7 @@ clr-cli log delete [index] or clr-cli log d [index]
 
 # Reminder
 
-Before using `clr-cli log token`, you need to add your env variable first  
+Before using `clr-cli log token`, you need to add your env variable first
 
 ## Set Env
 
@@ -72,11 +72,11 @@ Type below in your terminal, and then run clr-cli log token
 export POST_URL=the URL we offered on the website
 clr-cli log token
 ```
-  
+
 # Contribution & Feedback
 
 Contributing and feedbacks are more than welcome. Please feel free to submit a Pull Request.
-  
+
 # External Libraies
 | Library Name | Link | License | 
 |---|---|---|
