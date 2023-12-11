@@ -27,12 +27,12 @@ Color-Converter-CLI is built using Go and Cobra, a CLI library for Go that empow
 
 for MacOS/Linux
 ```
-sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/wendy-YW/color-converter-cli/test/godownloader.sh)" -- -b /usr/local/bin
+sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/wendy-YW/clr-cli/release/godownloader.sh)" -- -b /usr/local/bin
 ```
 
 for Windows
 ```
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wendy-YW/color-converter-cli/test/godownloader.sh" -OutFile "godownloader.sh"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wendy-YW/clr-cli/release/godownloader.sh" -OutFile "godownloader.sh"
 bash ./godownloader.sh
 ```
 > if you encounter any problems regarding installing it on the windows, please open an issue
@@ -58,7 +58,7 @@ clr-cli log delete [index] or clr-cli log d [index]
 
 # Reminder
 
-Before using `clr-cli log token`, you need to add your env variable first
+Before using `clr-cli log token`, you need to add your env variable first  
 
 ## Set Env
 
@@ -67,4 +67,15 @@ Type below in your terminal, and then run clr-cli log token
 export POST_URL=the URL we offered on the website
 clr-cli log token
 ```
+  
+# Contribution & Feedback
+
+Contributing and feedbacks are more than welcome. Please feel free to submit a Pull Request.
+  
+# External Libraies
+| Library Name | Link | License | 
+|---|---|---|
+| Cobra | https://github.com/spf13/cobra| Apache License 2.0 |
+| go-pretty | https://github.com/jedib0t/go-pretty| MIT License |
+
 
