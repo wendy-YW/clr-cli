@@ -29,9 +29,6 @@ $ clr-cli toHex(or aliases) -rgb(shorthand: -r) 255,0,0 `,
 }
 
 func rgb2Hex(cmd *cobra.Command, args []string) {
-	//fmt.Printf("Your \u001b[1m\u001b[41;1m R \u001b[42;1m G \u001b[44;1m B \u001b[0m: %s\n ", args[1])
-	//fmt.Println("\033[38;2;0;0;255m Test \u001B[0m")
-	// 058D
 	if !(args[0] == "-rgb" || args[0] == "-r") {
 		fmt.Println("Invalid Flag, check the command description")
 		return
