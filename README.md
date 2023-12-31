@@ -23,6 +23,9 @@ clr-cli log token or clr-cli log t
 ```
 Color-Converter-CLI is built using Go and Cobra, a CLI library for Go that empowers applications.
 
+## How to use token?
+https://github.com/wendy-YW/clr-cli/assets/93748904/64f21fbe-c509-4251-8cc0-4cec4934d55f
+
 # Preview
 <img src="https://i.imgur.com/sowWfbP.png" alt="p1" width="400" />
 <img src="https://i.imgur.com/LAbmDYq.png" alt="p2" width="400" />
